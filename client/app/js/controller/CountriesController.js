@@ -3,8 +3,6 @@ countriesApp
 .controller('CountriesController', ['$scope', '$timeout', 'CountriesService',
     function ($scope, $timeout, CountriesService) {
 
-        $scope.ICONS_PATH = 'app/style/icons/';
-
         $scope.event = {
             name: 'Unit testing with AngularJS',
             date: '17/10/2014',
