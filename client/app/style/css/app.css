@@ -1,0 +1,92 @@
+body{
+    font-family: Helvetica, Arial, sans-serif;
+    color: #424242;
+    font-size: 80%;
+    line-height: 1.5em;
+    background: #ffffff!important;
+    margin: 0;
+    padding: 0;
+}
+.pointer-cursor {
+    cursor: pointer;
+}
+
+.navbar{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    position: fixed;
+    top: 0px;
+    height: 50px!important;
+    background: #222222!important;
+    display: block!important;
+    overflow: hidden!important;
+    float: left!important;
+    border: none!important;
+    border-radius: 0px!important;
+}
+
+.navbar-inner{
+    max-width: 890px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 14px 0px;
+}
+ul.nav{
+    margin: 0;
+}
+
+.navbar-inner ul li {
+    color: #ffffff;
+    font-weight: bolder;
+}
+.container{
+    width: 100%!important;
+    padding: 10px 80px;
+    margin: -20px 0 0 0!important;
+    background: -moz-linear-gradient(top, rgba(221,221,221,1) 0%, rgba(225,225,225,0) 21%, rgba(235,235,235,0) 81%, rgba(238,238,238,1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(221,221,221,1)), color-stop(21%,rgba(225,225,225,0)), color-stop(81%,rgba(235,235,235,0)), color-stop(100%,rgba(238,238,238,1)));
+    background: -webkit-linear-gradient(top, rgba(221,221,221,1) 0%,rgba(225,225,225,0) 21%,rgba(235,235,235,0) 81%,rgba(238,238,238,1) 100%);
+    background: -o-linear-gradient(top, rgba(221,221,221,1) 0%,rgba(225,225,225,0) 21%,rgba(235,235,235,0) 81%,rgba(238,238,238,1) 100%);
+    background: -ms-linear-gradient(top, rgba(221,221,221,1) 0%,rgba(225,225,225,0) 21%,rgba(235,235,235,0) 81%,rgba(238,238,238,1) 100%);
+    background: linear-gradient(to bottom, rgba(221,221,221,1) 0%,rgba(225,225,225,0) 21%,rgba(235,235,235,0) 81%,rgba(238,238,238,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dddddd', endColorstr='#eeeeee',GradientType=0 );
+    background-color: white;
+    display: block;
+    float: left!important;
+    overflow: hidden;
+}
+
+.container-wrapper{
+    max-width: 890px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.center{
+    text-align: center;
+}
+.grey{
+    background: #e9e9e9 !important;
+    margin: 10px 5px!important;
+    padding: 20px!important;
+}
+.row .span3{
+    padding: 3px 0px 5px 16px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.sortable li {
+    color: #245269;
+    padding: 5px 0px!important;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+.cornered-input {
+    border-radius: 7px !important;
+}

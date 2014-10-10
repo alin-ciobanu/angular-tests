@@ -1,0 +1,20 @@
+{
+    "name": "countries",
+    "version": "0.0.1",
+    "dependencies": {
+        "grunt": "*",
+        "grunt-contrib-clean": "*",
+        "grunt-contrib-uglify": "*",
+        "grunt-contrib-concat": "*",
+        "load-grunt-tasks": "*",
+        "time-grunt": "*",
+        "node-restful": "*",
+        "express": "~4.0.0",
+        "mongoose": "*",
+        "body-parser": "*"
+    },
+    "devDependencies": {
+        "bower": "*",
+        "grunt-bower-install": "*"
+    }
+}

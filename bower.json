@@ -1,0 +1,14 @@
+{
+    "name": "countries",
+    "version": "0.0.1",
+    "dependencies": {
+        "bootstrap": "*",
+        "jquery": "*",
+        "jquery-ui": "*",
+        "angular": "*"
+    },
+    "devDependencies": {
+        "angular-mocks": "*",
+        "angular-scenario": "*"
+    }
+}
