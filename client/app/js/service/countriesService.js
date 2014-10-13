@@ -28,12 +28,12 @@ function ($http, AddressDefinitions) {
             .success(function (data) {
                 thisService.countriesList = data;
                 if (typeof onSuccess === 'function') {
-                    onSuccess();
+                    onSuccess(data);
                 }
             })
             .error(function (response) {
                 if (typeof onError === 'function') {
-                    onError();
+                    onError(response);
                 }
             });
     }

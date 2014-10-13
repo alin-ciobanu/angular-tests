@@ -11,7 +11,17 @@
         "node-restful": "*",
         "express": "~4.0.0",
         "mongoose": "*",
-        "body-parser": "*"
+        "body-parser": "*",
+        "grunt-karma": "*",
+        "karma": "*",
+        "karma-chrome-launcher": "*",
+        "karma-coverage": "*",
+        "karma-firefox-launcher": "*",
+        "karma-jasmine": "*",
+        "karma-ng-html2js-preprocessor": "*",
+        "karma-phantomjs-launcher": "*",
+        "karma-requirejs": "*",
+        "karma-script-launcher": "*"
     },
     "devDependencies": {
         "bower": "*",
