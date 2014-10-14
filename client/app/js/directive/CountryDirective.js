@@ -17,7 +17,6 @@ countriesApp
 
                 scope.ICONS_PATH = 'app/style/icons/';
 
-
             }
 
         }

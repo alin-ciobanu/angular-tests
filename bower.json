@@ -5,7 +5,8 @@
         "bootstrap": "*",
         "jquery": "*",
         "jquery-ui": "*",
-        "angular": "*"
+        "angular": "*",
+        "underscore": "*"
     },
     "devDependencies": {
         "angular-mocks": "*",

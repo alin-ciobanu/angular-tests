@@ -14,6 +14,7 @@ module.exports = function(config) {
             'lib/jquery-ui/jquery-ui.js',
             'lib/angular/angular.js',
             'lib/angular-mocks/angular-mocks.js',
+            'lib/underscore/underscore-min.js',
             'app/js/app.js',
 
             'app/js/controller/*.js',
@@ -23,6 +24,8 @@ module.exports = function(config) {
 
             // tests
             {pattern: 'tests/services/*.js', included: true},
+            {pattern: 'tests/controllers/*.js', included: true},
+            {pattern: 'tests/directive/*.js', included: true},
 
             // templates
             'app/views/*.html'
