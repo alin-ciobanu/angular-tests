@@ -26,6 +26,7 @@ module.exports = function(config) {
             {pattern: 'tests/services/*.js', included: true},
             {pattern: 'tests/controllers/*.js', included: true},
             {pattern: 'tests/directive/*.js', included: true},
+            {pattern: 'tests/filter/*.js', included: true},
 
             // templates
             'app/views/*.html'
