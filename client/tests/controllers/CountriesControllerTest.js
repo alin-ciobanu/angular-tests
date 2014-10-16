@@ -47,7 +47,7 @@ describe("CountriesController", function () {
 
     });
 
-    it("should set success status on successful fetching", function () {
+    it("should set success status on successful fetching of countries", function () {
 
         fetchCountriesWithHttpBackend(200, [germany]);
         expect($scope.status.fetching.success).toEqual(true);
