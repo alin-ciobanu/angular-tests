@@ -1,7 +1,7 @@
 
 Cum rulati aplicatia
 
-
+Asigurati-va ca aveti mongoDB instalat.
 Asigurati-va ca aveti nodejs instalat.
 
 Pentru a instala dependintele de care aveti nevoie, rulati:
@@ -11,7 +11,10 @@ bower install
 Daca primiti eroare ca bower nu e instalat, instalati-l global cu:
 npm install -g bower
 
-Pentru a rula efectiv aplicatia, folositi:
+Pentru a rula efectiv aplicatia, porniti mongo.
+Folositi http://docs.mongodb.org/manual/installation/ pentru a-l configura (se configureaza rapid).
+Daca rulati sub Windows, puteti folosi fisierul .bat creat. Inspectati-l pentru a corecta calea catre mongo in caz ca aceasta nu este corecta.
+Rulati:
 node server/server.js
 
 Pentru a rula testele, folositi grunt test
