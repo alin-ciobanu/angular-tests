@@ -1,0 +1,19 @@
+
+Cum rulati aplicatia
+
+
+Asigurati-va ca aveti nodejs instalat.
+
+Pentru a instala dependintele de care aveti nevoie, rulati:
+npm install
+bower install
+
+Daca primiti eroare ca bower nu e instalat, instalati-l global cu:
+npm install -g bower
+
+Pentru a rula efectiv aplicatia, folositi:
+node server/server.js
+
+Pentru a rula testele, folositi grunt test
+
+Toate comenzile trebuie date din root-ul aplicatiei.
